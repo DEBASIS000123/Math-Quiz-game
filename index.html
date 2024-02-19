@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="background">
+            <div class="box">
+                <h2>Score -> <span id="score"></span></h2>
+                <h3 id="question"></h3>
+                <form class="answer-form" id="answer-form" onsubmit="checkans(event)">
+                    <input type="number" name="answer" required id="answer" class="answer">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
